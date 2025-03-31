@@ -1,3 +1,4 @@
-body {
-    background-color: aqua;
+div.portfolio-wrapper {
+    display: flex;
+    justify-content: space-evenly;
 }
