@@ -13,12 +13,12 @@ div.portfolio-wrapper {
     color: #fff;
 }
 
-h1 {
+#pawel h1 {
     font-size: 2.5em; 
     margin-top: 50px;
 }
 
-.btn {
+#pawel .btn {
     background: #ffcc00; 
     padding: 10px 20px; 
     border-radius: 5px; 
@@ -26,10 +26,15 @@ h1 {
     text-decoration: none;
 }
 
-.projects {
+#pawel .projects {
     margin-top: 30px;
 }
 
-.projects a {
+#pawel .projects a {
     display: block; margin: 10px 0; color: #ffcc00; text-decoration: none;
+}
+
+#pawel img {
+    height: auto;
+    max-width: 100%;
 }
