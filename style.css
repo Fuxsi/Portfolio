@@ -29,6 +29,7 @@ div.portfolio-wrapper {
     display: inline-block;
     max-width: 200px;
     margin: 0 auto;
+    box-shadow: inset 0em 1em 0.1em #afff0082;
 }
 
 #pawel .btn:hover {
@@ -36,11 +37,25 @@ div.portfolio-wrapper {
 }
 
 @keyframes shake {
-    0% { transform: rotate(0deg); }
-    25% { transform: rotate(-5deg); }
-    50% { transform: rotate(5deg); }
-    75% { transform: rotate(-5deg); }
-    100% { transform: rotate(0deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-5deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    75% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 #pawel .projects {
@@ -108,4 +123,20 @@ footer li a {
     100% {
         color: magenta;
     }
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+#form input {
+    padding: 10px 15px;
+}
+
+#form textarea {
+    padding: 30px 15px;
 }
