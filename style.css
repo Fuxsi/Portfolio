@@ -1,6 +1,7 @@
 body {
     background: #c2bfbfe5;
 }
+
 div.portfolio-wrapper {
     display: flex;
     justify-content: space-around;
@@ -13,23 +14,78 @@ div.portfolio-wrapper {
     color: #fff;
 }
 
-h1 {
-    font-size: 2.5em; 
+#pawel h1 {
+    font-size: 2.5em;
     margin-top: 50px;
 }
 
-.btn {
-    background: #ffcc00; 
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    color: #111; 
+#pawel .btn {
+    background: #ffcc00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #111;
     text-decoration: none;
 }
 
-.projects {
+#pawel .projects {
     margin-top: 30px;
 }
 
-.projects a {
-    display: block; margin: 10px 0; color: #ffcc00; text-decoration: none;
+#pawel .projects .link-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+#pawel .projects a {
+    display: block;
+    margin: 10px 0;
+    color: #ffcc00;
+    text-decoration: none;
+    background: blueviolet;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+#pawel img {
+    height: auto;
+    max-width: 100%;
+}
+
+footer ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer li a {
+    text-decoration: none;
+    animation: blinkColors 1.5s infinite alternate;
+}
+
+@keyframes blinkColors {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: yellow;
+    }
+
+    50% {
+        color: lime;
+    }
+
+    75% {
+        color: cyan;
+    }
+
+    100% {
+        color: magenta;
+    }
 }
