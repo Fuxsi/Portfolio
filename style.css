@@ -34,24 +34,21 @@ h1 {
     display: block; margin: 10px 0; color: #ffcc00; text-decoration: none;
 }
 
-h2 {
-    text-align: center;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+/* Style Ada */
+
+div.portfolio-wrapper {
+    display: flex;
+    justify-content: space-around;
 }
 
-p {
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
 
-footer nav ul li {
-    list-style: none;
+section h4, h3 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-section h3 {
+section a {
     text-align: center;
+    display: block;
 }
