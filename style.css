@@ -20,11 +20,27 @@ div.portfolio-wrapper {
 }
 
 #pawel .btn {
-    background: #ffcc00;
     padding: 10px 20px;
     border-radius: 5px;
-    color: #111;
     text-decoration: none;
+    color: #fff;
+    background: #05460f;
+    transition: 0.3s;
+    display: inline-block;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+#pawel .btn:hover {
+    animation: shake 0.3s ease-in-out infinite;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
 }
 
 #pawel .projects {
@@ -41,9 +57,13 @@ div.portfolio-wrapper {
     margin: 10px 0;
     color: #ffcc00;
     text-decoration: none;
-    background: blueviolet;
+    background: #140c51de;
     padding: 40px;
     border-radius: 12px;
+}
+
+#pawel .projects a:hover {
+    background: #655cb6de;
 }
 
 #pawel img {
