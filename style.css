@@ -2,3 +2,31 @@ div.portfolio-wrapper {
     display: flex;
     justify-content: space-evenly;
 }
+
+#pawel {
+    background: #111;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5em; 
+    margin-top: 50px;
+}
+
+.btn {
+    background: #ffcc00; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    color: #111; 
+    text-decoration: none;
+}
+
+.projects {
+    margin-top: 30px;
+}
+
+.projects a {
+    display: block; margin: 10px 0; color: #ffcc00; text-decoration: none;
+}
