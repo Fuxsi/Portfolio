@@ -1,0 +1,38 @@
+#body-form {
+    background: url(../img/gif.gif);
+}
+
+#form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: 640px) {
+        margin: 0 10px;
+    }
+}
+
+#form input,
+textarea {
+    border-radius: 12px;
+}
+
+#body-form a {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    background: #75737396;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.link-wrapper {
+    gap: 20px;
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+}
