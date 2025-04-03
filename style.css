@@ -77,6 +77,7 @@ div.portfolio-wrapper {
     background-color: pink;
     border-radius: 10px;
     color: black;
+    overflow: hidden;
 }
 
 #ada.container {
@@ -199,6 +200,7 @@ footer p {
   animation-duration: 5s;
   animation-name: slide-in;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes slide-in{
