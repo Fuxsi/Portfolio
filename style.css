@@ -63,119 +63,13 @@ div.portfolio-wrapper {
     margin-top: 30px;
 }
 
-#pawel .projects .link-wrapper 
-.projects a {
-    display: block; margin: 10px 0; color: #ffcc00; text-decoration: none;
-}
-
-
-/* Style Ada */
-
-/* div.portfolio-wrapper {
-    display: flex;
-    justify-content: space-around;
-}
-
-#pawel .projects a {
-    display: block;
-    margin: 10px 0;
-    color: #ffcc00;
+#pawel .projects .link-wrapper  {
+    display: block; 
+    margin: 10px 0; 
+    color: #ffcc00; 
     text-decoration: none;
-    background: #140c51de;
-    padding: 40px;
-    border-radius: 12px;
 }
 
-#pawel .projects a:hover {
-    background: #655cb6de;
-}
-
-#pawel img {
-    height: auto;
-    max-width: 100%;
-}
-
-footer ul {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-}
-
-footer li {
-    list-style: none;
-}
-
-footer li a {
-    text-decoration: none;
-    animation: blinkColors 1.5s infinite alternate;
-}
-
-@keyframes blinkColors {
-    0% {
-        color: red;
-    }
-
-    25% {
-        color: yellow;
-    }
-
-    50% {
-        color: lime;
-    }
-
-    75% {
-        color: cyan;
-    }
-
-    100% {
-        color: magenta;
-    }
-}
-
-#form {
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    margin: 0 auto;
-    gap: 20px;
-}
-
-#form input {
-    padding: 10px 15px;
-}
-
-#form textarea {
-    padding: 30px 15px;
-}
-#ada {
-    background: url(https://cdn.pixabay.com/photo/2021/08/18/19/12/abstract-background-6556364_1280.jpg);
-    padding: 20px 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    color: #000000;
-}
-
-section h4, h3 {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-section a {
-    text-align: center;
-    display: block;
-}
-
-
-div section {
-    border: 3px solid rgb(25, 0, 255);
-    background: #fff;
-    opacity: 0.6;
-    padding: 4px 10px;
-} */
-
-/* Nowe style */
 
 #ada {
     font-family: Verdana, Geneva, Tahoma, sans-serif;

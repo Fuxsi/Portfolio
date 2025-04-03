@@ -6,6 +6,10 @@
     height: 100vh;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 5px;
 
     @media (max-width: 640px) {
         margin: 0 10px;
@@ -15,6 +19,7 @@
 #form input,
 textarea {
     border-radius: 12px;
+    padding: 20px;
 }
 
 #body-form a {
@@ -35,4 +40,25 @@ textarea {
         flex-direction: column;
         margin: 0 10px;
     }
+}
+
+#pawel footer nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pawel footer nav ul li {
+    list-style: none;
+    padding: 30px;
+    background: #291c4bfb;
+    padding: 30px 50px;
+    border-radius: 12px;
+}
+
+#pawel footer nav ul li a {
+    text-decoration: none;
+}
+
+#pawel main {
+    padding-bottom: 38%;
 }
