@@ -157,6 +157,29 @@ div section {
     /* background:linear-gradient(45deg, orange, cyan); */
 }
 
+#ada .a::before {
+    content: "🪼";
+}
+
+#ada .b {
+    text-decoration: none;
+    color: blue;
+}
+
+#ada .b::before {
+    content: "🐈‍⬛"; 
+  }
+
+
+#ada .c {
+    text-decoration: none;
+    color: blue;
+}
+
+#ada .c::before {
+    content: "🪷"; 
+  }
+
 @media (width >= 1920px) {
 
 }
