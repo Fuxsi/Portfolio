@@ -157,3 +157,13 @@ footer {
     /* background:linear-gradient(45deg, orange, cyan); */
 }
 
+@media (width >= 1920px) {
+
+}
+@media (1200px <= width <= 1919px) {
+
+}
+
+@media (768px <= width <= 767px) {
+    
+}
